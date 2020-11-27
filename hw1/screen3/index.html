@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ScreenThree</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="desktop-view">
+
+        <div class="d-header">
+            <span class="d-text">Flutter</span>
+
+            <input type="text" placeholder="Search" class="d-search-input">
+
+            <img src="./pics/button.png" alt="button" class="d-button">
+        </div>
+
+        <main class="d-main-content">
+            <div class="d-profile">
+                <div class="d-profile-top">
+                    <span class="d-name">Martin Hristov</span>
+                    <img src="./pics/profile_pic.png" alt="profile pic" class="d-profile-pic">
+                </div>
+
+                <footer class="d-profile-footer">
+                    <section class="d-profile-footer-left">
+                        <section class="d-profile-footer-posts">
+                            <span class="d-profile-posts">Posts</span>
+                            <span class="d-profile-posts-number">1</span>
+                        </section>
+
+                        <section class="d-profile-footer-reactions">
+                            <span class="d-profile-reactions">Reactions</span>
+                            <span class="d-profile-reactions-number">7</span>
+                        </section>
+                    </section>
+
+                    <section class="d-profile-footer-right">
+                        <button type="submit" class="d-log-out-button"><b>Log Out</b></button>
+                    </section>
+                </footer>
+            </div>
+    
+            <div class="d-comment-section">
+                <div class="d-new-comment">
+                    <div class="d-new-comment-left">
+                        <img src="./pics/profile_pic.png" alt="profile-pic" class="d-new-comment-picture">
+                    </div>
+
+                    <div class="d-new-comment-right">
+                        <button type="submit" class="d-new-comment-button"><b>Say something</b></button>
+                        <img src="./pics/comment-balloon.png" class="d-new-comment-balloon" alt="comment-balloon">
+                    </div>
+                </div>
+    
+                <div class="d-posted-comments">
+                    <span class="d-first-comment">
+                        <div class="d-first-comment-content">
+                            <div class="d-first-comment-left">
+                                <img src="./pics/profile_pic.png" alt="profile-pic" class="d-first-comment-profile-pic">
+                            </div>
+
+                            <div class="d-first-comment-right">
+                                <header class="d-first-comment-header">
+                                    <span class="d-fc-header-left">
+                                        <h3>Ivan Ivanov</h3>
+                                    <ul>
+                                        <li class="d-fc-seconds">
+                                            0 seconds ago
+                                        </li>
+                                    </ul>
+                                    </span>
+
+                                    <span class="d-fc-header-right">
+                                        <img src="./pics/x.png" alt="x" class="d-x">
+                                    </span>
+                                </header>
+
+                                <span class="d-first-comment-text">
+                                    line-0...<br>
+                                    line-1... <br>
+                                    line-2... <br>
+                                    line-3...<br>
+                                    line-4...
+                                </span>
+
+                                <footer class="d-first-comment-footer">
+                                    <img src="./pics/first-comment-likeDis.png" alt="fc-ld" class="d-fc-footer-pic">
+                                </footer>
+                            </div>
+                        </div>
+                    </span>
+    
+                    <span class="d-second-comment">
+                        <div class=d-second-comment-content>
+                            <div class="d-second-comment-left">
+                                <img src="./pics/profile_pic.png" alt="profile-pic" class="d-second-comment-profile-pic">
+                            </div>
+
+                            <div class="d-second-comment-right">
+                                <header class="d-second-comment-header">
+                                    <span class="d-sc-header-left">
+                                        <h3>Martin</h3>
+                                    <ul>
+                                        <li class="d-sc-seconds">
+                                            Last month
+                                        </li>
+                                    </ul>
+                                    </span>
+
+                                    <span class="d-sc-header-right">
+                                        <img src="./pics/x.png" alt="x" class="d-x">
+                                    </span>
+                                </header>
+
+                                <span class="d-second-comment-text">
+                                    line-0..<br>
+                                    line-1...
+                                </span>
+
+                                <footer class="d-second-comment-footer">
+                                    <img src="./pics/second-comment-likeDis.png" alt="sc-ld" class="d-sc-footer-pic">
+                                </footer>
+                            </div>
+                        </div>
+                    </span>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <div class="mobile-view">
+        <main class="m-main-content">
+            <div class="m-header">
+                Flutter
+                <input type="text" class="m-header-input" placeholder="Search">
+                <img src="./pics/button.png" alt="button" class="m-header-button">
+            </div>
+
+            <div class="m-content">
+                <div class="m-profile">
+                    <img src="pics/profile_pic.png" alt="profile-pic" class="m-profile-pic">
+                    <span class="m-profile-name">test</span>
+                </div>
+
+                <div class="m-interactions">
+                    <div class="m-interactions-left">
+                        <div class="m-interactions-left-posts">
+                            <span class="m-posts-top">
+                                <b>Posts</b>
+                            </span>
+
+                            <span class="m-posts-number">
+                                1
+                            </span>
+                        </div>
+
+                        <div class="m-interactions-left-reactions">
+                            <span class="m-reactions-top">
+                                <b>Reactions</b>
+                            </span>
+
+                            <span class="m-reactions-number">
+                                8
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="m-interactions-right">
+                        <button class="m-interactions-logout-button">Log Out</button>
+                    </div>
+                </div>
+
+                <div class="m-new-comment">
+                    <div class="m-new-comment-left">
+                        <img src="./pics/profile_pic.png" alt="profile-pic" class="m-new-comment-pic">
+                    </div>
+
+                    <div class="m-new-comment-right">
+                        <button class="m-new-comment-button">Say something</button>
+                        <img src="./pics/comment-balloon.png" alt="button" class="m-new-comment-ballon">
+                    </div>
+                </div>
+
+                <div class="m-comments">
+                    <div class="m-first-comment">
+                        <div class="m-first-comment-content">
+                            <div class="m-first-comment-left">
+                                <img src="./pics/profile_pic.png" alt="profile-pic" class="m-first-comment-profile-pic">
+                            </div>
+
+                            <div class="m-first-comment-right">
+                                <header class="m-first-comment-right-header">
+                                    <span class="m-first-comment-right-header-username"><b>test</b></span>
+                                    <span class="m-first-comment-right-header-elapsed-time">3 minutes ago</span>
+                                    <img src="./pics/x.png" alt="x" class="m-first-comment-x">
+                                </header>
+
+                                <div class="m-first-comment-right-text">
+                                    line1<br>
+                                    line2<br>
+                                    line3<br>
+                                    line4<br>
+                                    line5<br>
+                                    line6<br>
+                                    line7<br>
+                                    line8
+                                </div>
+
+                                <footer class="m-first-comment-right-footer">
+                                    <img src="./pics/like.png" alt="like" class="m-first-comment-like">
+                                    <span class="m-first-comment-like-number">5</span>
+                                    <img src="./pics/dislike.png" alt="dislike" class="m-first-comment-dislike">
+                                    <span class="m-first-comment-dislike-number">3</span>
+                                </footer>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="m-second-comment">
+                        <div class="m-second-comment-content">
+                            <div class="m-second-comment-left">
+                                <img src="./pics/profile_pic.png" alt="profile-pic" class="m-second-comment-profile-pic">
+                            </div>
+
+                            <div class="m-second-comment-right">
+                                <header class="m-second-comment-right-header">
+                                    <span class="m-second-comment-right-header-username"><b>Martin</b></span>
+                                    <span class="m-second-comment-right-header-elapsed-time">Last month</span>
+                                    <img src="./pics/x.png" alt="x" class="m-second-comment-x">
+                                </header>
+
+                                <div class="m-second-comment-right-text">
+                                    fasdf
+                                </div>
+
+                                <footer class="m-second-comment-right-footer">
+                                    <img src="./pics/like.png" alt="like" class="m-second-comment-like">
+                                    <span class="m-second-comment-like-number">3</span>
+                                    <img src="./pics/dislike.png" alt="dislike" class="m-second-comment-dislike">
+                                    <span class="m-second-comment-dislike-number">0</span>
+                                </footer>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+    </div>
+</body>
+</html>
